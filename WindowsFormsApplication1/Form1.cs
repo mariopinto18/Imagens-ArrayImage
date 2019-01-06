@@ -21,6 +21,7 @@ namespace WindowsFormsApplication1
 
         private void button5_Click(object sender, EventArgs e)
         {
+            // OpenFileDialog para filtrar as extensões de ficheiros a mostrar ao utilizador
             OpenFileDialog openFileDialog1 = new OpenFileDialog();
 
             openFileDialog1.Filter =
